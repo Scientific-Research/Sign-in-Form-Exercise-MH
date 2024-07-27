@@ -52,11 +52,12 @@ input[type="password"] {
   padding: 1.5rem 1rem;
   width: 25rem;
   height: 4rem;
+  border-color: #ced4da;
 }
 
 input:focus {
-  border-color: #639bdf;
-  box-shadow: 0 0 0 6px #86b7fe;
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 6px #b9d3fa;
   /* box-shadow: 0 0 0 4px rgba(24, 117, 255, 0.25); */
   outline: none;
 }
