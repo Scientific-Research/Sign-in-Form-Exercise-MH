@@ -26,7 +26,13 @@ form {
   /* padding: 5rem; */
   background: #f5f5f5;
   /* margin: 0 auto; */
-  width: 90vw; /*change to 90vw for mobile mode*/
+  /* width: 90vw;  */
+  /*change to 90vw for mobile mode*/
+  /* width: 100%;  */
+  /*change to 90vw for mobile mode*/
+  /* width: 90%;  */
+  /*change to 90vw for mobile mode*/
+  min-width: 50vw; /*when i increase the pixel,it will automatically increase this width*/
   height: 50vh;
 
   display: flex;
