@@ -42,13 +42,16 @@ label {
   color: #444;
 }
 
-input {
+input[type="email"],
+input[type="password"] {
   display: block;
   margin-top: 2rem;
   /* font-size: 3rem; */
   border-radius: 0.5rem;
   border: 1px solid #ccc;
   padding: 1.5rem 1rem;
+  width: 25rem;
+  height: 4rem;
 }
 
 input:focus {
@@ -63,20 +66,30 @@ input:focus {
 }
 
 .checkbox {
-  /* display: flex; */
+  /* margin-bottom: 1.7rem; */
 }
 
 button {
   /* padding: 1rem 7rem; */
   background: #0d6efd;
-  width: 15rem;
-  height: 5rem;
-  border-radius: 1rem;
+  width: 25rem;
+  height: 4rem;
+  border-radius: 75px;
   outline: 0;
   border: none;
+  margin-bottom: 1rem;
+  color: #fff;
 }
 
 p {
   font-size: 1rem;
   color: #555;
+}
+
+.remCheck {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  column-gap: 0.2rem;
+  margin-bottom: 1rem;
 }
