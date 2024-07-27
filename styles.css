@@ -52,6 +52,9 @@ input[type="password"] {
   height: 4rem;
   /* width: 100%; */
   border-color: #ced4da;
+  /* we have to place the transition always in the parent => not in the pseudo element or pseudo class or other kind of children 
+  all means here: border-color and box-shadow which we have in input:focus*/
+  transition: all 0.5s;
 }
 
 input:focus {
