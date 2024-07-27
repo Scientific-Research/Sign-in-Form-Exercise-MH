@@ -45,7 +45,7 @@ label {
 input[type="email"],
 input[type="password"] {
   display: block;
-  margin-top: 2rem;
+  margin-top: 1rem;
   /* font-size: 3rem; */
   border-radius: 0.5rem;
   border: 1px solid #ccc;
@@ -92,4 +92,5 @@ p {
   justify-content: center;
   column-gap: 0.2rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
